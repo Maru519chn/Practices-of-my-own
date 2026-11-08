@@ -110,3 +110,49 @@ mass = 75 #in kg
 volume = 0.075 #in m^3
 density = mass / volume
 print('Density of an liquid: ', density, 'kg/m^3')
+
+#Comparison operators
+# == equal to → x == y
+# != not equal to → x != y
+# > greater than → x > y
+# < less than → x < y
+# >= greater than or equal to → x >= y
+# <= less than or equal to → x <= y
+
+print(3 > 2) # True
+print(3 >= 2) # True
+print(3 < 2) # False
+print(3 <= 2) # False
+print(3 == 2) # False
+print(3 != 2) # True
+print(len('mango') == len('avocado')) # False
+print(len('mango') != len('avocado')) # True
+print(len('mango') < len('avocado')) # True
+print(len('milk') != len('meat')) # False
+print(len('milk') == len('meat')) # True
+print(len('tomato') == len('potato')) # True
+print(len('python') > len('dragon')) # False
+
+# Comparison gives either a True or False
+
+print('True == True: ', True == True) # True
+print('True == False: ', True == False) # False
+print('False == False: ', False == False) # True
+
+# Logical operators
+# and → Returns True if both statements are true x < 5 and x < 10
+# or → Returns True if one of the statements is true x < 5 or x < 4
+# not → Reverse the result, returns False if the result is true not(x < 5 and x < 10)
+
+print(3 > 2 and 4 > 3) # True
+print(3 > 2 and 4 < 3) # False
+print(3 < 2 and 4 < 3) # False
+print(3 > 2 or 4 > 3) # True
+print(3 > 2 or 4 < 3) # True
+print(3 < 2 or 4 < 3) # False
+print('true or false: ', True or False) # True
+print('true or true: ', True or True) # True
+print('false or true: ', False or True) # True
+print('false or false: ', False or False) # False
+print('not true: ', not True) # False
+print('not false: ', not False) # True
